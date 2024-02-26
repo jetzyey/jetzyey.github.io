@@ -1,0 +1,41 @@
+/* All found in google fonts */
+/* Change to gh urls */
+@font-face {
+    font-family: "dmsans";
+    src: url("C:/Users/mark4/Documents/jetzyey/website/assets/fonts/DM_Sans/DMSans-VariableFont_opsz,wght.ttf");
+}
+
+@font-face {
+    font-family: "inter";
+    src: url("C:/Users/mark4/Documents/jetzyey/website/assets/fonts/Inter-VariableFont_slnt,wght.ttf");
+}
+
+@font-face {
+    font-family: "karla";
+    src: url("C:|/Users/mark 4px /Documents/jetzyey/website/assets/fonts/Karla/Karla-VariableFont_wght.ttf");
+}
+
+@font-face {
+    /* These fonts are in separate files - need to add a new font face for each we use */
+    font-family: "poppins";
+    src: url("C:/Users/mark4/Documents/jetzyey/website/assets/fonts/Poppins-Regular.ttf");
+}
+
+@font-face {
+    font-family: "source-sans-3";
+    src: url("C:/Users/mark4/Documents/jetzyey/website/assets/fonts/SourceSans3-VariableFont_wght.ttf");
+}
+
+:root {
+    /* brand colours */
+    --main-yellow-1: #fbca1b; /* main */
+    --main-yellow-2: #f1e7b0; /* main */
+    --accent-orange: #e38400;  /* main */
+    --accent-pink: #fc8a8a;
+    --accent-green: #b1d641;
+    --tonic-trqs-1: #2accbb; /* main */
+    --tonic-trqs-2: #b5f3f0; /* main */
+    /* brand fonts */
+    --main-font: "inter"; 
+    --accent-font: "poppins";
+}
