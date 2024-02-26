@@ -2,28 +2,28 @@
 /* Change to gh urls */
 @font-face {
     font-family: "dmsans";
-    src: url("assets/fonts/DM_Sans/DMSans-VariableFont_opsz,wght.ttf");
+    src: url("../fonts/DM_Sans/DMSans-VariableFont_opsz,wght.ttf");
 }
 
 @font-face {
     font-family: "inter";
-    src: url("assets/fonts/Inter-VariableFont_slnt,wght.ttf");
+    src: url("../fonts/Inter-VariableFont_slnt,wght.ttf");
 }
 
 @font-face {
     font-family: "karla";
-    src: url("assets/fonts/Karla/Karla-VariableFont_wght.ttf");
+    src: url("../fonts/Karla/Karla-VariableFont_wght.ttf");
 }
 
 @font-face {
     /* These fonts are in separate files - need to add a new font face for each we use */
     font-family: "poppins";
-    src: url("assets/fonts/Poppins-Regular.ttf");
+    src: url("../fonts/Poppins-Regular.ttf");
 }
 
 @font-face {
     font-family: "source-sans-3";
-    src: url("assets/fonts/SourceSans3-VariableFont_wght.ttf");
+    src: url("../fonts/SourceSans3-VariableFont_wght.ttf");
 }
 
 :root {
