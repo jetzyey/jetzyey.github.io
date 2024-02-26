@@ -2,28 +2,28 @@
 /* Change to gh urls */
 @font-face {
     font-family: "dmsans";
-    src: url("C:/Users/mark4/Documents/jetzyey/website/assets/fonts/DM_Sans/DMSans-VariableFont_opsz,wght.ttf");
+    src: url("assets/fonts/DM_Sans/DMSans-VariableFont_opsz,wght.ttf");
 }
 
 @font-face {
     font-family: "inter";
-    src: url("C:/Users/mark4/Documents/jetzyey/website/assets/fonts/Inter-VariableFont_slnt,wght.ttf");
+    src: url("assets/fonts/Inter-VariableFont_slnt,wght.ttf");
 }
 
 @font-face {
     font-family: "karla";
-    src: url("C:|/Users/mark 4px /Documents/jetzyey/website/assets/fonts/Karla/Karla-VariableFont_wght.ttf");
+    src: url("assets/fonts/Karla/Karla-VariableFont_wght.ttf");
 }
 
 @font-face {
     /* These fonts are in separate files - need to add a new font face for each we use */
     font-family: "poppins";
-    src: url("C:/Users/mark4/Documents/jetzyey/website/assets/fonts/Poppins-Regular.ttf");
+    src: url("assets/fonts/Poppins-Regular.ttf");
 }
 
 @font-face {
     font-family: "source-sans-3";
-    src: url("C:/Users/mark4/Documents/jetzyey/website/assets/fonts/SourceSans3-VariableFont_wght.ttf");
+    src: url("assets/fonts/SourceSans3-VariableFont_wght.ttf");
 }
 
 :root {
