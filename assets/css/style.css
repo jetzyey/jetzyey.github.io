@@ -1,5 +1,51 @@
 @import url("variables.css");
+
 h1 {
   font-family: var(--main-font);
   font-size: large;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  background-color: var(--main-yellow-1);
+  flex: 0 0 100%; 
+  align-items: center;
+  justify-content: center;
+  
+  img.logo {
+    height: var(--logo-size);
+    aspect-ratio: inherit; 
+    align-self: flex-start;
+  }
+
+  .identity {
+    justify-content: center;
+    align-items: center;
+  }
+
+  h1.name {
+    font-size: 40pt;
+    display: flex;
+    align-self: center;
+  }
+
+  .menu {
+    justify-content: space-around;
+    .item {
+      font-size: 20px;
+      margin: 10px;
+    }
+    .logo-spacer {
+      width: var(--logo-size);
+    }
+  }
 }
