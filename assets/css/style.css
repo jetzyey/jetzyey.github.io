@@ -62,22 +62,21 @@ main {
     align-items: center;
 
     .pics {
-      img {
-        flex-grow: 0;
-        aspect-ratio: 1;
-        margin: 30px;
-        height: 300px;
-      }
-      margin: 30px;
-      display: flex;
       flex-direction: row;
       flex-wrap: wrap;
       object-fit: cover;
       vertical-align: bottom;
       width: 80%;
+      img {
+        flex-grow: 0;
+        aspect-ratio: 1;
+        margin: 30px;
+        height: 300px;
+        margin: 30px;
+      }
     }
-
   }
+
   .insta-embed {
     width: 75%;
     height: 1200px;
