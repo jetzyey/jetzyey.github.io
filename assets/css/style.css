@@ -49,3 +49,34 @@ header {
     }
   }
 }
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+
+  .images {
+    display: flex;
+    .pics {
+      img {
+        flex-grow: 0;
+        aspect-ratio: 1;
+        margin: 30px;
+        height: 300px;
+      }
+      margin: 30px;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      object-fit: cover;
+      vertical-align: bottom;
+      width: 80%;
+    }
+
+  }
+  .insta-embed {
+    width: 80%;
+    height: 1200px;
+  }
+}
