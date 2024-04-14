@@ -58,6 +58,9 @@ main {
 
   .images {
     display: flex;
+    justify-content: center;
+    align-items: center;
+
     .pics {
       img {
         flex-grow: 0;
@@ -76,7 +79,8 @@ main {
 
   }
   .insta-embed {
-    width: 80%;
+    width: 75%;
     height: 1200px;
+    border: none;
   }
 }
