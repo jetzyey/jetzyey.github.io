@@ -15,7 +15,7 @@ h1 {
   flex-direction: column;
 }
 
-header {
+.header {
   background-color: var(--main-yellow-1);
   flex: 0 0 100%; 
   align-items: center;
